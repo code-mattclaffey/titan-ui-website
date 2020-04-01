@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "/Users/matthewclaffey/Desktop/Repos/titan-ui-website"
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "[Palenight Theme]": {
+        "titleBar.activeBackground": "#ea4854",
+        "titleBar.activeForeground": "#ffffff"
+      }
+    },
+    "window.titleBarStyle": "custom"
+  }
+}

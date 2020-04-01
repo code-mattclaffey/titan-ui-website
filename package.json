@@ -1,0 +1,48 @@
+{
+    "name": "titan-ui-website",
+    "version": "1.0.0",
+    "description": "Website for titan ui library",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "next",
+        "start": "next start",
+        "build": "next build",
+        "export": "next build && next export"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/code-mattclaffey/titan-ui-website.git"
+    },
+    "author": "Matthew Claffey",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/code-mattclaffey/titan-ui-website/issues"
+    },
+    "homepage": "https://github.com/code-mattclaffey/titan-ui-website#readme",
+    "dependencies": {
+        "@titan-tooling/ui": ">=0.13.0",
+        "next": "^9.3.3",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+        "@types/next": "^9.0.0",
+        "@types/node": "^13.9.8",
+        "@types/react": "^16.9.31",
+        "@zeit/next-css": "^1.0.1",
+        "@zeit/next-typescript": "^1.1.1",
+        "next-purgecss": "^4.0.0",
+        "typescript": "^3.8.3",
+        "autoprefixer": "^9.7.4",
+        "cssnano": "^4.1.10",
+        "mqpacker": "^7.0.0",
+        "postcss-cli": "^7.1.0",
+        "postcss-custom-media": "^7.0.8",
+        "postcss-custom-properties": "^9.0.2",
+        "postcss-import": "^12.0.1",
+        "postcss-pxtorem": "^4.0.1",
+        "stylelint": "^13.0.0",
+        "stylelint-config-standard": "^19.0.0"
+    }
+}
